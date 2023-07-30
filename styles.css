@@ -1,0 +1,99 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #eee;
+  }
+  
+
+  .header {
+    text-align: center;
+    background-color: #f9ca24; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px; 
+  }
+  
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #000; 
+  }
+  
+  
+  #restaurant-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 10px;
+    margin: 20px; 
+  }
+  
+  .restaurant-card {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9ca24; 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    transition: transform 0.2s ease;
+    margin-bottom: 5px;
+  }
+
+  .restaurant-card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .restaurant-card img {
+    border-radius: 10px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-card-content {
+    flex: 1;
+  }
+  
+  .restaurant-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #000; 
+  }
+  
+  .restaurant-card p {
+    font-size: 16px;
+    color: #444; 
+  }
+  
+  #past-locations-table {
+    border-collapse: collapse;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 20px; 
+    border: 2px solid #f9ca24; 
+    border-radius: 10px;
+  }
+  
+  #past-locations-table th,
+  #past-locations-table td {
+    border: 1px solid #f9ca24;
+    padding: 8px;
+  }
+  
+  
+  .map-container {
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px auto; 
+    width: 90%;
+    height: 500px; 
+  }
+  

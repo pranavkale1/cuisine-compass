@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Information</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1><u>Cuisine Compass App</u></h1>
+  </div>
+
+  <div id="map" class="map-container"></div>
+
+  <div id="restaurant-info">
+  </div>
+
+  <h1 style="color: #f9ca24; text-align: center; "> <u>Past Locations</u>  </h1>
+
+  <table id="past-locations-table">
+	<thead>
+	  <tr>
+		<th style="color: #f9ca24;">SL.NO</th>
+		<th style="color: #f9ca24;">Address</th>
+	  </tr>
+	</thead>
+	<tbody id="past-locations-table-body"></tbody>
+  </table>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
